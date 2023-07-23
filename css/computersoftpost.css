@@ -1,0 +1,157 @@
+/*computer Software Post*/
+
+.prodect-title {
+    font-size: 30px;
+    color: blue;
+}
+
+.prodect-sub {
+    font-size: 25px;
+    color: var(--light-color);
+}
+
+.prodect-para {
+    text-align: justify;
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.soft {
+    background: var(--background-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.soft .content {
+    flex: 1 1 42rem;
+}
+
+.soft .image {
+    flex: 1 1 42rem;
+
+}
+
+.soft .image img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.soft .content h3 {
+    color: var(--green);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+
+.soft .content h1 {
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.soft .content p {
+    padding: 1rem 0;
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    text-align: justify;
+}
+
+
+.soft-2 {
+    background: var(--background-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.soft-2 .content {
+    flex: 1 1 42rem;
+}
+
+.soft-2 .image {
+    flex: 1 1 42rem;
+
+}
+
+.soft-2 .image img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.soft-2 .content h3 {
+    color: var(--green);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+
+.soft-2 .content h1 {
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.soft-2 .content p {
+    padding: 1rem 0;
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    text-align: justify;
+
+
+}
+
+
+.cs-btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .7rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.cs-btn:hover {
+    background: var(--dark-color);
+}
+
+.cs-btn-2 {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .7rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.cs-btn-2:hover {
+    background: var(--dark-color);
+}
+
+.cs-btn-3 {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .7rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.cs-btn-3:hover {
+    background: var(--dark-color);
+}

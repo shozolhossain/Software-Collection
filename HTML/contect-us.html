@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout Books</title>
+    <link rel="shortcup icon" type="image/ico" href="image/our featured/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- font aewsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contect-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+        }
+
+
+        hr {
+            width: 80%;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .contact-items {
+            display: flex;
+            margin: 30px auto;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+
+        .customer-care,
+        .write-us,
+        .sales-market {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 28%;
+            margin: 30px auto;
+            padding: 35px 15px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 250px;
+
+        }
+
+        .customer-care,
+        .write-us,
+        .sales-market,
+        h2 {
+            padding-top: 1.5rem;
+            font-size: 15px;
+        }
+
+        .customer-care,
+        .write-us,
+        .sales-market p {
+            font-size: 15px;
+        }
+
+        .customer-care {
+            height: 250px;
+            box-shadow: 0 15px 15px green;
+            border: 1px solid green;
+        }
+
+        .write-us {
+            height: 250px;
+            box-shadow: 0 15px 15px red;
+            border: 1px solid red;
+        }
+
+        .sales-market {
+            height: 250px;
+            box-shadow: 0 15px 15px blue;
+            border: 1px solid blue;
+        }
+
+
+        button {
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+
+        button:hover {
+            color: gray;
+        }
+
+        #cust-care {
+            background: green;
+
+            box-shadow: 0 0 5px black;
+        }
+
+        #write {
+            background: rgb(187, 15, 15);
+
+            box-shadow: 0 0 5px black;
+        }
+
+        #sales {
+            background: blue;
+            box-shadow: 0 0 5px black;
+        }
+
+        a {
+            font-size: 16px;
+        }
+
+        .customer-care a {
+            color: green;
+            text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+        }
+
+        .sales-market a {
+            color: blue;
+            text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i> Scout Books</a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box" onkeyup="search()">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="index.html#home"> Home</a>
+                <a href="index.html#featured"> Featured</a>
+                <a href="index.html#allbooks"> All Books</a>
+                <a href="worldscout.html"> World Scouts</a>
+                <a href="allvideo.html"> Gallery</a>
+                <a href="blogs.html"> Blogs</a>
+            </nav>
+        </div>
+    </header>
+    <nav class="bottom-navbar">
+        <a href="index.html#home" class="fas fa-home"> </a>
+        <a href="index.html#featured" class="fas fa-book-bookmark"> </a>
+        <a href="index.html#allbooks" class="fas fa-book-open"> </a>
+        <a href="worldscout.html" class="fas fa-book-atlas"> </a>
+        <a href="allvideo.html" class="fas fa-video"> </a>
+        <a href="blogs.html" class="fas fa-blog"> </a>
+
+    </nav>
+
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>Sing In</h3>
+            <span>Username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> Remember me</label>
+            </div>
+            <input type="submit" value="Sing In" class="btn">
+            <p>Forget Password ?<a href="#"> Click here</a></p>
+            <p>Don't have an Account ?<a href="#"> Create one</a></p>
+        </form>
+    </div>
+
+
+
+
+    <div class="contect-container">
+        <h1>Contact Us</h1>
+        <hr>
+        </hr>
+        <h2>Have any questions? We'd love to hear from you</h2>
+        <div class="contact-items">
+            <div class="customer-care">
+                <h3>Customer Care</h3>
+                <p>Our Support team is spread all over the world to give you fast response</p>
+                <a href="#"><button id="cust-care"> Submit a Request</button></a>
+                <a href="faq.html"> Frequently asked Questions</a>
+            </div>
+            <div class="write-us">
+                <h3>Write Us</h3>
+                <p> You can write us if you have any queries</p>
+                <a href="./contect.html"> <button id="write">Write</button></a>
+                <a href="#">More Info</a>
+            </div>
+            <div class="sales-market">
+                <h3> Sales and Marketing</h3>
+                <p>Get in touch with our sales and marketing team</p>
+                <button id="sales">Contact Sales</button>
+                <a href="#">View Plans</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Pur locations</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Bangladesh</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Dhaka</a>
+                <a href="contect-us.html"><i class="fas fa-message"> </i>Contect Us</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="index.html#home"><i class="fas fa-arrow-right"> </i>Home</a>
+                <a href="index.html#featured"><i class="fas fa-arrow-right"> </i>Featured</a>
+                <a href="index.html#allbooks"><i class="fas fa-arrow-right"> </i>All books</a>
+            </div>
+            <div class="box">
+                <h3>Quick links-2</h3>
+                <a href="worldscout.html"><i class="fas fa-arrow-right"> </i>World Scout</a>
+                <a href="allvideo.html"><i class="fas fa-arrow-right"> </i>All Videos</a>
+                <a href="blogs.html"><i class="fas fa-arrow-right"> </i>Blogs</a>
+            </div>
+            <div class="box">
+                <h3>More Info</h3>
+                <a href="aboutus.html"><i class="fas fa-address-book"> </i>About Us</a>
+                <a href="privacypolicy.html"><i class="fas fa-triangle-exclamation"> </i>Privacy Policy</a>
+                <a href="team.html"><i class="fas fa-users"> </i>Our Team</a>
+            </div>
+            <div class="box">
+                <h3>More Website</h3>
+                <a href="http://www.scouts.gov.bd/" target="_blank"><i class="fas fa-globe-asia">
+                    </i>www.scouts.gov.bd</a>
+                <a href="https://scoutbooks.netlify.app/" target="_blank"><i class="fas fa-globe-asia">
+                    </i>service.scouts.gov.bd</a>
+                <a href="http://service.scouts.gov.bd/" target="_blank"><i class="fas fa-globe-oceania">
+                    </i>scoutbooks.netlify.app</a>
+                <!--<img src="image/World Map.png" class="map" alt="">-->
+            </div>
+            <div class="box">
+                <h3>World Scouts</h3>
+                <a href="https://www.scout.org/" target="_blank"><i class="fas fa-globe-americas"> </i>www.scout.org</a>
+                <a href="https://www.jotajoti.info/" target="_blank"><i class="fas fa-globe-africa">
+                    </i>www.jotajoti.info</a>
+                <a href="faq.html"><i class="fas fa-question-circle"></i>FAQ's</a>
+
+                <!--<img src="image/World Map.png" class="map" alt="">-->
+            </div>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/SMshojol124" target="_blank" class="fa-brands fa-facebook"></a>
+            <a href="https://twitter.com/MdShozolHossai1" target="_blank" class="fa-brands fa-twitter"></a>
+            <a href="https://www.instagram.com/shojol.hossain124/" target="_blank" class="fa-brands fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/shozol124/" target="_blank" class="fa-brands fa-linkedin"></a>
+            <a href="https://shozolhossain.netlify.app/" target="_blank" class="fa-brands fa-wordpress"></a>
+            <a href="https://join.skype.com/invite/wyf7rTSNw9se" target="_blank" class="fa-brands fa-skype"></a>
+            <a href="https://www.youtube.com/@ShozolTechBD2" target="_blank" class="fa-brands fa-youtube"></a>
+        </div>
+        <div class="credit">Created by <span>Md Shozol Hossain</span> । All Rights Reserved। 2023</div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

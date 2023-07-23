@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout Books</title>
+    <link rel="shortcup icon" type="image/ico" href="image/our featured/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- font aewsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bloodform.css">
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=6486fad219ebc20012fab56b&product=sticky-share-buttons'
+        async='async'></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="index.html" class="logo"><i class="fas fa-book"></i> Scout Books</a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box" onkeyup="search()">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="bloodform.html"  class="fas fa-droplet"></a>
+                <a href="aboutus.html" class="fas fa-address-book"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="index.html"> Home</a>
+                <a href="index.html#featured"> Featured</a>
+                <a href="allbooks.html"> All Books</a>
+                <a href="worldscout.html"> World Scouts</a>
+                <a href="allvideo.html"> Gallery</a>
+                <a href="blogs.html"> Blogs</a>
+            </nav>
+        </div>
+    </header>
+    <nav class="bottom-navbar">
+        <a href="index.html#home" class="fas fa-home"> </a>
+        <a href="index.html#featured" class="fas fa-book-bookmark"> </a>
+        <a href="index.html#allbooks" class="fas fa-book-open"> </a>
+        <a href="worldscout.html" class="fas fa-book-atlas"> </a>
+        <a href="allvideo.html" class="fas fa-video"> </a>
+        <a href="blogs.html" class="fas fa-blog"> </a>
+
+    </nav>
+
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>Sing In</h3>
+            <span>Username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> Remember me</label>
+            </div>
+            <input type="submit" value="Sing In" class="btn">
+            <p>Forget Password ?<a href="#"> Click here</a></p>
+            <p>Don't have an Account ?<a href="#"> Create one</a></p>
+        </form>
+    </div>
+
+
+
+    <!-- blood Form start-->
+    <div class="container">
+        <div class="title">Registration</div>
+        <h2>Blood Donation Form</h2>
+        <p>-প্রতি <span>3</span> সেকেন্ডে একজনের রক্তের প্রয়োজন হয়।</p>
+        <p>-যাদের রক্তের দরকার হয় তাদের মধ্যে <span>20%</span>-ই শিশু।</p>
+        <p>-রক্ত দান করা <span>100%</span> নিরাপদ।</p>
+        <p>-একজন ডোনারের এক পাইন্ট রক্ত তিন জন মানুষের জীবন বাঁচাতে পারে।</p>
+        <p>-আমাদের মোট জনসংখ্যা <span>60%</span> মানুষ রক্ত দানে সক্ষম হলেও প্রকৃত পক্ষে দান করেন মাত্র <span>4%</span>
+            মানুষ।</p>
+        <p>*তাই আসুন, রক্ত দিয়ে অসহায় মানুষকে সহায়তা করার জন্য হাত বাড়াই।</p>
+        <div class="content">
+            <div class="image-section-2">
+                <img src="image/Blood.png">
+            </div>
+            <form name="Blood-Donation-form" method="POST" data-netlify="ture" onsubmit="submit">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date of Birth</span>
+                        <input type="text" name="date of bith" id="date of birth" placeholder="Enter your Date of Birth"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" name="email" id="email" placeholder="Enter your Number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" name="phone number" id="phone number" placeholder="Enter your Email"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Occupation</span>
+                        <input type="text" name="occupation" id="occupation" placeholder="Enter your Occupation"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input type="text" name="address" id="address" placeholder="Enter your address" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Blood Group</span>
+                        <input type="text" name="blood group" id="blood group" placeholder="Enter your blood Group"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <input type="text" name="gender" id="gender" placeholder="Enter your Gender" required>
+                    </div>
+                </div>
+                <div class="button-5">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+            <div class="image-section-2">
+                <img src="image/Blood-facts2.png">
+            </div>
+        </div>
+    </div>
+    <!-- Blood form ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Pur locations</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Bangladesh</a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i>Dhaka</a>
+                <a href="contect.html"><i class="fas fa-message"> </i>Contect Us</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="index.html#home"><i class="fas fa-home"> </i>Home</a>
+                <a href="index.html#featured"><i class="fas fa-book-bookmark"> </i>Featured</a>
+                <a href="allbooks.html"><i class="fas fa-book-open"> </i>All books</a>
+            </div>
+            <div class="box">
+                <h3>Quick links-2</h3>
+                <a href="worldscout.html"><i class="fas fa-book-atlas"> </i>World Scout</a>
+                <a href="allvideo.html"><i class="fas fa-video"> </i>All Videos</a>
+                <a href="blogs.html"><i class="fas fa-blog"> </i>Blogs</a>
+            </div>
+            <div class="box">
+                <h3>More Info</h3>
+                <a href="aboutus.html"><i class="fas fa-address-book"> </i>About Us</a>
+                <a href="privacypolicy.html"><i class="fas fa-triangle-exclamation"> </i>Privacy Policy</a>
+                <a href="team.html"><i class="fas fa-users"> </i>Our Team</a>
+            </div>
+            <div class="box">
+                <h3>World Scouts</h3>
+                <a href="https://www.scout.org/" target="_blank"><i class="fas fa-globe-americas"> </i>www.scout.org</a>
+                <a href="https://www.jotajoti.info/" target="_blank"><i class="fas fa-globe-africa">
+                    </i>www.jotajoti.info</a>
+                <a href="faq.html"><i class="fas fa-question-circle"></i>FAQ's</a>
+
+                <!--<img src="image/World Map.png" class="map" alt="">-->
+            </div>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/SMshojol124" target="_blank" class="fa-brands fa-facebook"></a>
+            <a href="https://twitter.com/MdShozolHossai1" target="_blank" class="fa-brands fa-twitter"></a>
+            <a href="https://www.instagram.com/shojol.hossain124/" target="_blank" class="fa-brands fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/shozol124/" target="_blank" class="fa-brands fa-linkedin"></a>
+            <a href="https://shozolhossain.netlify.app/" target="_blank" class="fa-brands fa-wordpress"></a>
+            <a href="https://join.skype.com/invite/wyf7rTSNw9se" target="_blank" class="fa-brands fa-skype"></a>
+            <a href="https://www.youtube.com/@ShozolTechBD2" target="_blank" class="fa-brands fa-youtube"></a>
+        </div>
+        <div class="credit">Created by <span><a href="https://www.facebook.com/SMshojol124" target="_blank">Md Shozol
+                    Hossain</a></span> । All Rights Reserved। 2023</div>
+    </section>
+
+
+
+    <!-- loader-->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
